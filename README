@@ -1,0 +1,22 @@
+This library allows you to send SMSs using DiamondCard's web interface.
+Beware: I will not be held responsible for the problems caused by malfunctions
+or similar. Use it at your own risk. This program is not fully tested and I
+cannot guarantee that it works as you expect it to. If it wastes all the credit
+in your diamondcard account, it won't be my fault.
+
+COPYRIGHT NOTICE
+================
+All rights reserved (c) 2011 Ivan Perez Dominguez (Keera Studios)
+Read the file LICENCE for more information.
+
+TODO
+====
+DiamondCard also provides a SOAP interface. I've been unable to use shoap (a
+Haskell library implementing the SOAP standard) for that purpose. As soon as I
+figure out a way to make it work, I'll improve this code. At the present time,
+you don't get error messages if you run out of money or of the service doesn't
+work. You only get notified if the there are problems at the HTTP layer (or
+below).
+
+Does that bug you? It bugs me. If you want to fix it, send me an email.
+We can figure it out together.
