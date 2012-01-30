@@ -1,4 +1,8 @@
--- | This module provides two main elements:
+-- Copyright 2011 (c) Ivan Perez Dominguez (Keera Studios)
+-- Read the accompanying licence file to know the terms of the copyright
+-- agreement.
+--
+-- | This module provides two elements:
 -- * An operation to contact DiamondCard and send SMSs using their website
 -- * A datatype to process the result.
 --
@@ -11,7 +15,7 @@
 -- will not be delivered) and SMSApparentlySent (which reflects that it might,
 -- it might not be sent).
 module Network.SMS.DiamondCard
-  ( SMSDeliveryResult
+  ( SMSDeliveryResult(..)
   , sendSMS
   )
  where
