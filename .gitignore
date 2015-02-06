@@ -1,0 +1,11 @@
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+Main
+Main.o
+Main.hi
+Main.hs
