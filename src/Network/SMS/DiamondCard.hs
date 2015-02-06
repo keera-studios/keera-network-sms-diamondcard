@@ -22,6 +22,7 @@ module Network.SMS.DiamondCard
 
 -- External imports
 import Data.IORef
+-- import Data.List
 import Network.Curl
 
 -- | The result of sending an SMS. Since errors could be reported as part of the page
@@ -60,7 +61,8 @@ sendSMS accID pinCode msg from tos = do
              CurlOK -> SMSApparentlySent
              _      -> SMSNotSent $ concat $ reverse lss
         
-  where url = "https://www.diamondcard.us/exec/voip-login"
+  where url = "https://www.diamondcard.us/exec/voip-login" -- ++ params
+        -- params  = concat (intersperse "&" message)
         message = [ "accId=" ++ accID
                   , "pinCode=" ++ pinCode
                   , "act=sms"
