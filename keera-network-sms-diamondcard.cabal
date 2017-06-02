@@ -10,7 +10,7 @@ Maintainer:          ivan.perez@keera.es
 Stability:           Provisional
 Category:            Network
 Build-type:          Simple
-Cabal-version:       >=1.2
+cabal-version: >= 1.10
 
 Library
   Build-depends:       base >=4, curl
