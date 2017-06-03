@@ -2,11 +2,11 @@ Name:                keera-network-sms-diamondcard
 Version:             0.1
 Synopsis:            Send SMS's using DiamondCard
 Description:         Send SMS's using the DiamondCard VoIP provider. Messages are sent unencrypted, using HTTPS POST messages.
-Homepage:            http://keera.es/blog/community
+Homepage:            http://keera.co.uk/blog/community
 License:             BSD3
 License-file:        LICENSE
 Author:              Ivan Perez
-Maintainer:          ivan.perez@keera.es
+Maintainer:          ivan.perez@keera.co.uk
 Stability:           Provisional
 Category:            Network
 Build-type:          Simple
