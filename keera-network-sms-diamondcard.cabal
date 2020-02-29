@@ -1,3 +1,7 @@
+-- Copyright   : (C) Ivan Perez Dominguez, 2011
+-- License     : BSD3
+-- Maintainer  : support@keera.co.uk
+
 Name:                keera-network-sms-diamondcard
 Version:             0.1
 Synopsis:            Send SMS's using DiamondCard
@@ -6,7 +10,7 @@ Homepage:            http://keera.es/blog/community
 License:             BSD3
 License-file:        LICENSE
 Author:              Ivan Perez
-Maintainer:          ivan.perez@keera.es
+Maintainer:          support@keeera.co.uk
 Stability:           Provisional
 Category:            Network
 Build-type:          Simple
