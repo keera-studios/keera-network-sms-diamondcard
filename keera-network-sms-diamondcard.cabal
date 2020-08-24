@@ -25,7 +25,8 @@ library
     Network.SMS.DiamondCard
 
   build-depends:
-    base >=4, curl
+      base >=4
+    , curl
 
   hs-source-dirs:
     src/
