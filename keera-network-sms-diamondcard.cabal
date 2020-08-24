@@ -18,15 +18,18 @@ description:
   unencrypted, using HTTPS POST messages.
 stability:           Provisional
 
+
 library
 
   exposed-modules:
     Network.SMS.DiamondCard
+
   build-depends:
     base >=4, curl
 
   hs-source-dirs:
     src/
+
   -- build-tools:
   ghc-options:
     -Wall
