@@ -17,9 +17,9 @@ description:         Send SMS's using the DiamondCard VoIP provider. Messages ar
 stability:           Provisional
 
 library
+
+  exposed-modules: Network.SMS.DiamondCard
   build-depends:       base >=4, curl
   hs-source-dirs:      src/
   -- build-tools:
   ghc-options: -Wall
-
-  exposed-modules: Network.SMS.DiamondCard
