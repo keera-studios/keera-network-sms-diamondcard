@@ -1,7 +1,7 @@
 -- Copyright   : (C) Ivan Perez Dominguez, 2011
 -- License     : BSD3
 -- Maintainer  : support@keera.co.uk
-cabal-version:       >=1.2
+cabal-version:       >= 1.2
 build-type:          Simple
 
 name:                keera-network-sms-diamondcard
@@ -25,7 +25,7 @@ library
     Network.SMS.DiamondCard
 
   build-depends:
-      base >=4
+      base >= 4
     , curl
 
   hs-source-dirs:
