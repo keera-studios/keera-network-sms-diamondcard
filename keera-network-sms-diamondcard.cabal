@@ -1,20 +1,20 @@
 -- Copyright   : (C) Ivan Perez Dominguez, 2011
 -- License     : BSD3
 -- Maintainer  : support@keera.co.uk
+cabal-version:       >=1.2
+build-type:          Simple
 
 name:                keera-network-sms-diamondcard
 version:             0.1
-synopsis:            Send SMS's using DiamondCard
-description:         Send SMS's using the DiamondCard VoIP provider. Messages are sent unencrypted, using HTTPS POST messages.
+author:              Ivan Perez
+maintainer:          support@keeera.co.uk
 homepage:            http://keera.es/blog/community
 license:             BSD3
 license-file:        LICENSE
-author:              Ivan Perez
-maintainer:          support@keeera.co.uk
-stability:           Provisional
 category:            Network
-build-type:          Simple
-cabal-version:       >=1.2
+synopsis:            Send SMS's using DiamondCard
+description:         Send SMS's using the DiamondCard VoIP provider. Messages are sent unencrypted, using HTTPS POST messages.
+stability:           Provisional
 
 library
   build-depends:       base >=4, curl
