@@ -1,13 +1,36 @@
-This library allows you to send SMSs using DiamondCard's web interface.
-Beware: I will not be held responsible for the problems caused by malfunctions
-or similar. Use it at your own risk. This program is not fully tested and I
-cannot guarantee that it works as you expect it to. If it wastes all the credit
-in your diamondcard account, it won't be my fault.
+NOTICE
+======
+
+This package is now deprecated. It is kept here for documentation purposes, but
+no changes will be made.
+
+THE AUTHOR PROVIDES THIS SOFTWARE ''AS IS'' AND ANY EXPRESSED OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 COPYRIGHT NOTICE
 ================
 All rights reserved (c) 2011 Ivan Perez Dominguez (Keera Studios)
 Read the file LICENCE for more information.
+
+'diamondcard.us' is a product offered of Dreamtime.net. Keera Studios Ltd makes
+no claims of ownership, relation, partnership, support, engagement, suitability
+and/or sponsorship from/by/of Dreamtime.net.
+
+================
+
+This library allows you to send SMSs using DiamondCard's web interface.
+Beware: I will not be held responsible for the problems caused by malfunctions
+or similar. Use it at your own risk. This program is not fully tested and I
+cannot guarantee that it works as you expect it to. If it wastes all the credit
+in your diamondcard account, it won't be my fault.
 
 TODO
 ====
